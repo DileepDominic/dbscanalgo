@@ -14,3 +14,5 @@ from sklearn.cluster import DBSCAN
 # make matplotlib plot inline (Only in Ipython).
 warnings.filterwarnings('ignore')
 %matplotlib inline
+
+df = pd.read_excel(r"galaxy.xlsx")
